@@ -72,7 +72,7 @@ const NewNodeModalBase = () => {
         ]
     )
     return(
-        <Layout>
+        <>
             <h1 className='miro-h1'>node</h1>
             {
                 shape?
@@ -80,7 +80,7 @@ const NewNodeModalBase = () => {
                 :
                     null
             }
-        </Layout>
+        </>
     )
 }
 
