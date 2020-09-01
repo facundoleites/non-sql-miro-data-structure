@@ -1,0 +1,25 @@
+.Library{
+    &Shape{
+        display: block;
+        padding:1rem;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+        cursor: move;
+        &Database{
+            background:#1a3d4a;
+            color:#F38C8D;
+        }
+        &Collection{
+            background:#F38C8D;
+            color:#1a3d4a;
+        }
+        &Document{
+            background:#F2B8A2;
+            color:#1a3d4a;
+        }
+        &Field{
+            background: #F3D2B3;
+            color:#1a3d4a;
+        }
+    }
+}

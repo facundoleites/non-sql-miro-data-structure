@@ -1,0 +1,34 @@
+{
+  "name": "non-sql-miro-data-structure",
+  "version": "1.0.0",
+  "description": "web plugin for non-sql data structure in miro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --content-base ./dist --hot --inline --colors --open",
+    "ngrok": "ngrok http --host-header=rewrite 8080",
+    "watch": "webpack --config webpack.config.js --mode=development --watch",
+    "build": "webpack --config webpack.config.js --mode=production"
+  },
+  "author": "Facundo Leites",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.9.48",
+    "@types/react-dom": "^16.9.8",
+    "es6-promise-pool": "^2.5.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.2",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "css-loader": "^4.2.2",
+    "html-webpack-plugin": "^4.3.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
