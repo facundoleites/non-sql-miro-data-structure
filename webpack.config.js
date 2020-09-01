@@ -84,7 +84,7 @@ module.exports = [
         config,
         {
             entry:{
-                library:'./src/newnode.tsx'
+                newnode:'./src/newnode.tsx'
             },
             plugins: [
                 new HtmlWebpackPlugin(
