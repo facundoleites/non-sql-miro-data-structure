@@ -6,10 +6,26 @@ const LayoutBase:React.FC<{children:React.ReactNode}> = (
         children
     }
 ) => {
+    const [loading,setloading] = React.useState(true);
+    React.useEffect(
+        ()=>{
+            miro.onReady(
+                ()=>{
+                    setloading(false);
+                }
+            )
+        },
+        [setloading]
+    )
     return(
         <div className='Layout'>
             <main className='LayoutBody'>
-                {children}
+                {
+                    loading?
+                        'loading...'
+                    :
+                        children
+                }
             </main>
             <Footer/>
         </div>
