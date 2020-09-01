@@ -85,7 +85,15 @@ const NewNodeModalBase = () => {
 }
 
 export const NewNodeModal = React.memo(NewNodeModalBase);
+
+const NewModalContainer = React.memo(
+    ()=>(
+        <Layout>
+            <NewNodeModal/>
+        </Layout>
+    )
+)
 ReactDOM.render(
-	<NewNodeModal/>,
+	<NewModalContainer/>,
 	document.getElementById('react-app-modal-node')
 )
