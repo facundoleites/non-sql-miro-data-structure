@@ -168,7 +168,6 @@ export const updateShape = async (
         (toppestChild && toppestChild.bounds && toppestChild.bounds.y)
     ){
         let targetY = shape.y;
-        let targetX = shape.x;
         if(toppestChild.y !== bottomestChild.y){
             const centerOfChilds = (
                 (
@@ -183,7 +182,6 @@ export const updateShape = async (
             {
                 id:shape.id,
                 y:targetY,
-                x:targetX,
                 metadata:{
                     [APP_ID]:{
                         ...shape.metadata[APP_ID],
