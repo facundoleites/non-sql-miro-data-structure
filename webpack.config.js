@@ -79,4 +79,15 @@ module.exports = [
       }),
     ],
   }),
+  Object.assign({}, config, {
+    entry: {
+      auth: "./src/auth.tsx",
+    },
+    plugins: [
+      new HtmlWebpackPlugin({
+        template: path.resolve(__dirname, "public", "auth.html"),
+        filename: "auth.html",
+      }),
+    ],
+  }),
 ];
