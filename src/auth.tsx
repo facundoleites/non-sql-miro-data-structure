@@ -10,12 +10,16 @@ const AuthBase = () => {
       })
       .then(() => miro.getToken())
       .then((token) => {
+        console.log("AuthBase -> token", token);
         if (token) {
           miro.board.ui.closeModal("success");
         } else {
           miro.showErrorNotification("something went wrong");
         }
         setLoading(false);
+      })
+      .catch((e) => {
+        console.error("e", e);
       });
   }, [setLoading]);
   return (
