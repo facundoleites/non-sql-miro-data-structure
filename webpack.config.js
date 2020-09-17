@@ -90,4 +90,15 @@ module.exports = [
       }),
     ],
   }),
+  Object.assign({}, config, {
+    entry: {
+      "auth-success": "./src/auth-success.tsx",
+    },
+    plugins: [
+      new HtmlWebpackPlugin({
+        template: path.resolve(__dirname, "public", "auth-success.html"),
+        filename: "auth-success.html",
+      }),
+    ],
+  }),
 ];
