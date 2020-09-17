@@ -1,13 +1,13 @@
-.Layout{
-    display:flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    overflow-x:hidden;
-    height: 100vh;
-    &Footer{
-        padding:1rem;
-    }
-    &Body{
-        padding:1rem;
-    }
+.Layout {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  height: 100vh;
+  &Footer {
+    padding: 1rem;
+  }
+  &Body {
+    padding: 1rem;
+  }
 }

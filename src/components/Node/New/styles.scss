@@ -1,17 +1,18 @@
-.NewNode{
-    &Edit,&AddChildren{
-        display: flex;
-        margin-top: 0.5rem;
-        &Label{
-            flex:2;
-        }
-        &Input{
-            margin-left: 1rem;
-            flex:3;
-        }
-        &Button{
-            flex:1;
-            margin-left: 1rem;
-        }
+.NewNode {
+  &Edit,
+  &AddChildren {
+    display: flex;
+    margin-top: 0.5rem;
+    &Label {
+      flex: 2;
     }
+    &Input {
+      margin-left: 1rem;
+      flex: 3;
+    }
+    &Button {
+      flex: 1;
+      margin-left: 1rem;
+    }
+  }
 }

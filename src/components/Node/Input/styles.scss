@@ -1,11 +1,12 @@
-.Node{
-    &Input{
-        display: flex;
-        input,select{
-            flex:1;
-        }
-        select{
-            margin-left: 1rem;
-        }
+.Node {
+  &Input {
+    display: flex;
+    input,
+    select {
+      flex: 1;
     }
+    select {
+      margin-left: 1rem;
+    }
+  }
 }

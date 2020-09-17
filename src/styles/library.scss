@@ -1,25 +1,25 @@
-.Library{
-    &Shape{
-        display: block;
-        padding:1rem;
-        border-radius: 0.5rem;
-        margin-top: 1rem;
-        cursor: move;
-        &Database{
-            background:#1a3d4a;
-            color:#F38C8D;
-        }
-        &Collection{
-            background:#F38C8D;
-            color:#1a3d4a;
-        }
-        &Document{
-            background:#F2B8A2;
-            color:#1a3d4a;
-        }
-        &Field{
-            background: #F3D2B3;
-            color:#1a3d4a;
-        }
+.Library {
+  &Shape {
+    display: block;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    cursor: move;
+    &Database {
+      background: #1a3d4a;
+      color: #f38c8d;
     }
+    &Collection {
+      background: #f38c8d;
+      color: #1a3d4a;
+    }
+    &Document {
+      background: #f2b8a2;
+      color: #1a3d4a;
+    }
+    &Field {
+      background: #f3d2b3;
+      color: #1a3d4a;
+    }
+  }
 }
