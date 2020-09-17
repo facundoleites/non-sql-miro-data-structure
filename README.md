@@ -4,6 +4,10 @@
 
 an simple web-plugin from structuring non-sql databases schemes in **Miro** made in typescript
 
+## Install
+
+[https://miro.com/oauth/authorize/?response_type=token&client_id=3074457349557361995&redirect_uri=https://non-sql.netlify.app/auth-success.html](https://miro.com/oauth/authorize/?response_type=token&client_id=3074457349557361995&redirect_uri=https://non-sql.netlify.app/auth-success.html)
+
 ## How it works
 
 ### Drag an drop from library
