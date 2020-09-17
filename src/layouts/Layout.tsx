@@ -8,6 +8,7 @@ const LayoutBase: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       const authorized = await miro.isAuthorized();
       console.log("authorized", authorized);
       if (authorized) {
+        setloading(false);
       } else {
         const res = await miro.board.ui.openModal("auth.html");
         console.log("res", res);
